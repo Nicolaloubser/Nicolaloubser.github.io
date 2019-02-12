@@ -1,5 +1,5 @@
 body {
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	color: #171717;
 	font-size: 15pt
 }
@@ -24,3 +24,8 @@ a {
 font-weight: 500;
 color: #F58235;
 }
+
+h2 {
+	color: #F58235
+}
+
