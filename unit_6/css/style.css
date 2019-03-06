@@ -6,7 +6,7 @@ body {
 }
 
 img {
-	display: block;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -52,10 +52,10 @@ h6{
 }
 
 nav{
+	width: 100%;
 	background-color: #f58235;
 	color: white;
 	padding: 20px;
-	margin: 15px;
 	display: block;
 	text-align: center;
 }
@@ -79,9 +79,8 @@ footer {
 }
 
 header {
-    padding: 20px;
-    text-align: center;
-    background-image: url("images/coaching.JPEG");
+ font-size: 20px;
+ text-align: center;
 }
 
 div {
@@ -91,6 +90,9 @@ div {
 a:hover {
 	background-color: #aaaaaa;
 }
+
+
+
 
 .column {
 float: left;
@@ -102,7 +104,20 @@ align-content: left;
 }
 
 .container {
-  position: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.paragraph {
+	font-size: 20px;
 }
 
 .text-block {
@@ -138,4 +153,8 @@ align-content: left;
     padding: 20px;
     float: right;   
     width: 62%;
+}
+
+.icon {
+	width: 100px;
 }
